@@ -25,6 +25,15 @@
       },
       "versions": [
         {
+          "version": "0.1.9",
+          "buildVersion": "9",
+          "date": "2026-09-27T15:12:38Z",
+          "localizedDescription": "- Switch to email/password and Google sign-in\n- Pipeline: stricter Places matching, Gemini fallback, renamed venues",
+          "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.9/Bucket.ipa",
+          "size": 2728749,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.7",
           "buildVersion": "7",
           "date": "2026-09-27T13:35:52Z",
@@ -34,11 +43,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.7",
-      "versionDate": "2026-09-27T13:35:52Z",
-      "versionDescription": "- Add SideStore release script and source\n- Add weather-aware discover, venues, plans with calendar export, map and videos\n- Add data pipeline: NEA weather, Google Places enrichment, Gemini ideas\n- Add media-sign edge function, IPA build script and README\n- Add SwiftUI app: OTP sign-in, groups, discover, bucket list, memories, themes\n- Match migration version to remote project\n- Add Supabase schema, RLS, discovery RPC and seed catalogue",
-      "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.7/Bucket.ipa",
-      "size": 2675869
+      "version": "0.1.9",
+      "versionDate": "2026-09-27T15:12:38Z",
+      "versionDescription": "- Switch to email/password and Google sign-in\n- Pipeline: stricter Places matching, Gemini fallback, renamed venues",
+      "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.9/Bucket.ipa",
+      "size": 2728749
     }
   ],
   "news": []
