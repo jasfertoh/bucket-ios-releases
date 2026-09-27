@@ -16,7 +16,9 @@
       "category": "lifestyle",
       "screenshotURLs": [],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
         "privacy": {
           "NSPhotoLibraryUsageDescription": "Bucket attaches your photos and videos to memories.",
           "NSCameraUsageDescription": "Bucket lets you snap a photo for a memory.",
@@ -24,6 +26,15 @@
         }
       },
       "versions": [
+        {
+          "version": "0.1.10",
+          "buildVersion": "10",
+          "date": "2026-09-27T16:23:01Z",
+          "localizedDescription": "- Add reminders, widgets, events, venue map pins and email sender setup",
+          "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.10/Bucket.ipa",
+          "size": 2891710,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "0.1.9",
           "buildVersion": "9",
@@ -43,11 +54,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.9",
-      "versionDate": "2026-09-27T15:12:38Z",
-      "versionDescription": "- Switch to email/password and Google sign-in\n- Pipeline: stricter Places matching, Gemini fallback, renamed venues",
-      "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.9/Bucket.ipa",
-      "size": 2728749
+      "version": "0.1.10",
+      "versionDate": "2026-09-27T16:23:01Z",
+      "versionDescription": "- Add reminders, widgets, events, venue map pins and email sender setup",
+      "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.10/Bucket.ipa",
+      "size": 2891710
     }
   ],
   "news": []
