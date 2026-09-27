@@ -1,0 +1,45 @@
+{
+  "name": "Bucket",
+  "identifier": "com.jasfertoh.bucket.source",
+  "subtitle": "Personal builds of Bucket for iPhone",
+  "iconURL": "https://raw.githubusercontent.com/jasfertoh/bucket-ios-releases/main/icon.png",
+  "tintColor": "#FF6B6B",
+  "apps": [
+    {
+      "name": "Bucket",
+      "bundleIdentifier": "com.jasfertoh.bucket",
+      "developerName": "Jasfer",
+      "subtitle": "Date ideas and a shared bucket list for Singapore",
+      "localizedDescription": "Discover things to do in Singapore, keep a bucket list with your partner or friends, plan dates, and save the memories.",
+      "iconURL": "https://raw.githubusercontent.com/jasfertoh/bucket-ios-releases/main/icon.png",
+      "tintColor": "#FF6B6B",
+      "category": "lifestyle",
+      "screenshotURLs": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "Bucket attaches your photos and videos to memories.",
+          "NSCameraUsageDescription": "Bucket lets you snap a photo for a memory.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "Bucket adds your planned dates to your calendar."
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.7",
+          "buildVersion": "7",
+          "date": "2026-09-27T13:35:52Z",
+          "localizedDescription": "- Add SideStore release script and source\n- Add weather-aware discover, venues, plans with calendar export, map and videos\n- Add data pipeline: NEA weather, Google Places enrichment, Gemini ideas\n- Add media-sign edge function, IPA build script and README\n- Add SwiftUI app: OTP sign-in, groups, discover, bucket list, memories, themes\n- Match migration version to remote project\n- Add Supabase schema, RLS, discovery RPC and seed catalogue",
+          "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.7/Bucket.ipa",
+          "size": 2675869,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "version": "0.1.7",
+      "versionDate": "2026-09-27T13:35:52Z",
+      "versionDescription": "- Add SideStore release script and source\n- Add weather-aware discover, venues, plans with calendar export, map and videos\n- Add data pipeline: NEA weather, Google Places enrichment, Gemini ideas\n- Add media-sign edge function, IPA build script and README\n- Add SwiftUI app: OTP sign-in, groups, discover, bucket list, memories, themes\n- Match migration version to remote project\n- Add Supabase schema, RLS, discovery RPC and seed catalogue",
+      "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.7/Bucket.ipa",
+      "size": 2675869
+    }
+  ],
+  "news": []
+}
