@@ -17,7 +17,8 @@
       "screenshotURLs": [],
       "appPermissions": {
         "entitlements": [
-          "com.apple.security.application-groups"
+          "com.apple.security.application-groups",
+          "aps-environment"
         ],
         "privacy": {
           "NSPhotoLibraryUsageDescription": "Bucket attaches your photos and videos to memories.",
@@ -26,6 +27,15 @@
         }
       },
       "versions": [
+        {
+          "version": "0.1.22",
+          "buildVersion": "22",
+          "date": "2026-09-28T13:54:05Z",
+          "localizedDescription": "- README and plan: push setup, tests, signing\n- Push notifications on iOS: token registration, tap routing, settings toggles; reset tab on sign-out\n- Offline caching with offline banner; no group-setup flash after sign-in\n- Year in review stories with shareable summary\n- Emoji reactions on photos and videos; search and filter chips\n- Milestones with badge grid and one-time celebrations\n- Group types, together-since date, monthsaries, anniversaries and birthdays\n- Tap to dismiss keyboard; edit a memory's place and date\n- Plan: push settings in Vault\n- Push notifications server side: push-send function, cron, Vault settings, tests\n- Schema for memory places, group types, birthdays, reactions and push outbox; plan",
+          "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.22/Bucket.ipa",
+          "size": 3806368,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "0.1.11",
           "buildVersion": "11",
@@ -63,11 +73,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.11",
-      "versionDate": "2026-09-27T23:26:25Z",
-      "versionDescription": "- Faster uploads with live progress, dated memories, own-idea locations, battery work",
-      "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.11/Bucket.ipa",
-      "size": 3226845
+      "version": "0.1.22",
+      "versionDate": "2026-09-28T13:54:05Z",
+      "versionDescription": "- README and plan: push setup, tests, signing\n- Push notifications on iOS: token registration, tap routing, settings toggles; reset tab on sign-out\n- Offline caching with offline banner; no group-setup flash after sign-in\n- Year in review stories with shareable summary\n- Emoji reactions on photos and videos; search and filter chips\n- Milestones with badge grid and one-time celebrations\n- Group types, together-since date, monthsaries, anniversaries and birthdays\n- Tap to dismiss keyboard; edit a memory's place and date\n- Plan: push settings in Vault\n- Push notifications server side: push-send function, cron, Vault settings, tests\n- Schema for memory places, group types, birthdays, reactions and push outbox; plan",
+      "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.22/Bucket.ipa",
+      "size": 3806368
     }
   ],
   "news": []
