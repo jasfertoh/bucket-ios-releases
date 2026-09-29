@@ -28,6 +28,15 @@
       },
       "versions": [
         {
+          "version": "0.1.29",
+          "buildVersion": "29",
+          "date": "2026-09-29T04:39:05Z",
+          "localizedDescription": "- README: background deletes and tests\n- Search suggestions for places, bucket and memories\n- Low-key birthday row; manage groups from the header menu\n- Add past memories and a full Edit memory sheet\n- Background delete queue with undo, activity pill, button progress; together-since date fix\n- Background storage clean-up: trash queue, media-gc function and cron\n- Plan for round 3",
+          "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.29/Bucket.ipa",
+          "size": 4134309,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.22",
           "buildVersion": "22",
           "date": "2026-09-28T13:54:05Z",
@@ -73,11 +82,11 @@
           "minOSVersion": "17.0"
         }
       ],
-      "version": "0.1.22",
-      "versionDate": "2026-09-28T13:54:05Z",
-      "versionDescription": "- README and plan: push setup, tests, signing\n- Push notifications on iOS: token registration, tap routing, settings toggles; reset tab on sign-out\n- Offline caching with offline banner; no group-setup flash after sign-in\n- Year in review stories with shareable summary\n- Emoji reactions on photos and videos; search and filter chips\n- Milestones with badge grid and one-time celebrations\n- Group types, together-since date, monthsaries, anniversaries and birthdays\n- Tap to dismiss keyboard; edit a memory's place and date\n- Plan: push settings in Vault\n- Push notifications server side: push-send function, cron, Vault settings, tests\n- Schema for memory places, group types, birthdays, reactions and push outbox; plan",
-      "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.22/Bucket.ipa",
-      "size": 3806368
+      "version": "0.1.29",
+      "versionDate": "2026-09-29T04:39:05Z",
+      "versionDescription": "- README: background deletes and tests\n- Search suggestions for places, bucket and memories\n- Low-key birthday row; manage groups from the header menu\n- Add past memories and a full Edit memory sheet\n- Background delete queue with undo, activity pill, button progress; together-since date fix\n- Background storage clean-up: trash queue, media-gc function and cron\n- Plan for round 3",
+      "downloadURL": "https://github.com/jasfertoh/bucket-ios-releases/releases/download/v0.1.29/Bucket.ipa",
+      "size": 4134309
     }
   ],
   "news": []
